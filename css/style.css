@@ -1,0 +1,159 @@
+footer {
+    padding: 20px;
+    background-color: #ECEDEE;
+}
+
+article {
+    margin: 10px 0 10px 0;
+}
+
+nav {
+  text-align: center;
+}
+
+a {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkblue;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+bold {
+  font-weight: bold;
+}
+
+.ref {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/* scrollbox properties */
+#scrollbox {
+    overflow-y: scroll;
+    height:200px;
+    width:100%;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1, h2, h3 { font-family: sans-serif;, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
+
+img {
+  padding-top: 7%;
+}
+
+.news {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-right: 2%;
+  padding-left: 2%;
+  background-color: #ECEDEE;
+}
+
+.col2 {
+  padding-right: 3%;
+  padding-left: 3%;
+}
+
+.info {
+  text-align: justify;
+}
+
+.sidebar_info {
+ text-align: center;
+}
+
+infobox h1 {
+  padding:2%;
+}
+
+
+month {
+  font-style: italic;
+}
+
+/* emojis for bullet points */
+
+.emoji-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.emoji-list li {
+  padding-left: 1rem;
+  text-indent: -0.75rem;
+}
+
+.emoji-list li:nth-child(1)::before {
+  content: '👩‍🏫 ';
+}
+.emoji-list li:nth-child(2)::before {
+  content: '📝 ';
+}
+.emoji-list li:nth-child(3)::before {
+  content: '🇧🇪 ';
+}
+.emoji-list li:nth-child(4)::before {
+  content: '🇬🇧 ';
+}
+.emoji-list li:nth-child(5)::before {
+  content: '🇸🇪 ';
+}
+.emoji-list li:nth-child(6)::before {
+  content: '🇲🇹 ';
+}
+.emoji-list li:nth-child(7)::before {
+  content: '🇳🇱 ';
+}
+.emoji-list li:nth-child(8)::before {
+  content: '📝 ';
+}
+.emoji-list li:nth-child(9)::before {
+  content: '🇫🇮 ';
+}
+.emoji-list li:nth-child(10)::before {
+  content: '💰 ';
+}
+
+.emoji-list li:nth-child(11)::before {
+  content: '👩‍🏫 ';
+}
+.emoji-list li:nth-child(12)::before {
+  content: '🇩🇰 ';
+}
+.emoji-list li:nth-child(13)::before {
+  content: '🇵🇹 ';
+}
+.emoji-list li:nth-child(14)::before {
+  content: '🇭🇷  ';
+}
+.emoji-list li:nth-child(15)::before {
+  content: '🇳🇱 ';
+}
+
+
+
+
+
