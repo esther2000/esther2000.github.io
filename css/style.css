@@ -54,7 +54,20 @@ bold {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  padding-top: 7%;
 }
+
+.t-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+}
+
+.space {
+  padding-top: 3%;
+}
+
 
 h1, h2, h3 { font-family: sans-serif;, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; }
 
@@ -62,10 +75,6 @@ h4 { font-family: sans-serif;, sans-serif; font-size: 20px; font-style: normal; 
     padding-top:5%;
 }
 
-
-img {
-  padding-top: 7%;
-}
 
 .news {
   padding-top: 3%;
@@ -174,3 +183,8 @@ month {
 .emoji-list li:nth-child(19)::before {
   content: '🇳🇱 ';
 }
+
+
+
+
+
