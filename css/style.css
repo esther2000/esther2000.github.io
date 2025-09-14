@@ -113,9 +113,11 @@ month {
 
 
 paper-title {
+  /* font-style: italic; */
+}
+venue {
   font-style: italic;
 }
-
 
 /* emojis for bullet points */
 
@@ -130,6 +132,9 @@ paper-title {
   text-indent: -0.75rem;
 }
 
+.emoji-list li:nth-last-child(27)::before {
+  content: '🎤 ';
+}
 .emoji-list li:nth-last-child(26)::before {
   content: '🇪🇺 ';
 }
