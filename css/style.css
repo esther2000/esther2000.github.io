@@ -132,8 +132,14 @@ venue {
   text-indent: -0.75rem;
 }
 
-.emoji-list li:nth-last-child(27)::before {
+.emoji-list li:nth-last-child(29)::before {
   content: '🎤 ';
+}
+.emoji-list li:nth-last-child(28)::before {
+  content: '🇩🇰 ';
+}
+.emoji-list li:nth-last-child(27)::before {
+  content: '👩‍🏫 ';
 }
 .emoji-list li:nth-last-child(26)::before {
   content: '🇪🇺 ';
