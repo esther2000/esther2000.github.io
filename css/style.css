@@ -27,6 +27,10 @@ bold {
   font-weight: bold;
 }
 
+underline-name {
+  text-decoration: underline;
+}
+
 .ref {
   padding-top: 5%;
 }
@@ -130,6 +134,18 @@ venue {
 .emoji-list li {
   padding-left: 1rem;
   text-indent: -0.75rem;
+}
+
+.emoji-list li:nth-last-child(32)::before {
+  content: '🇦🇲 ';
+}
+
+.emoji-list li:nth-last-child(31)::before {
+  content: '🇳🇱 ';
+}
+
+.emoji-list li:nth-last-child(30)::before {
+  content: '📘 ';
 }
 
 .emoji-list li:nth-last-child(29)::before {
